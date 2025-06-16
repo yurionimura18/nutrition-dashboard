@@ -82,6 +82,26 @@ python main.py
 
 ---
 
+## ✅ Conclusion
+
+This project explored nutritional intake disparities using data from the 2017–2018 NHANES cycle, focusing on U.S. women aged 20 to 40. I used three key components — demographics, dietary intake, and body measurements — to investigate two main questions:
+
+1. **Does average nutrient intake (as % of RDA) differ across BMI groups?**
+2. **Are there observable gaps in nutrient intake across income levels?**
+
+By aggregating nutrient intake data for Calcium, Iron, and Magnesium, I found several key patterns:
+
+- Women in higher income groups tended to meet or exceed the RDA more consistently than those in lower income groups.
+- Underweight and obese individuals showed more variability and deficiency in nutrient intake compared to those with normal BMI.
+- Across both BMI and income groups, Iron intake was the most commonly below 100% of the RDA, especially in lower-income and obese segments.
+
+These insights suggest socioeconomic and physiological factors may influence access to or absorption of key nutrients. While NHANES is observational and cannot imply causation, the dashboard helps highlight where potential dietary interventions or educational efforts could be most impactful.
+
+From a technical perspective, this project deepened my experience working with real-world health data, especially NHANES `.XPT` files, and taught me how to create an end-to-end pipeline that moves from raw public data to polished, decision-support visuals. It also reinforced the value of asking questions and using data to answer them clearly.
+
+---
+
+
 ## 🛠 Tools & Technologies
 
 | Stage           | Tool/Tech               |
